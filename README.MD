@@ -335,3 +335,6 @@ File ini berfungsi sebagai titik masuk utama (entry point) untuk menjalankan apl
     * `center_y = int(screen_height / 2 - window_height / 2)`: Menghitung posisi y agar window berada di tengah.
     * `root.geometry(f'{window_width}x{window_height}+{center_x}+{center_y}')`: Mengatur ukuran dan posisi window.
   * `root.mainloop()`: Memulai *event loop* Tkinter, yang membuat window tetap terbuka dan responsif terhadap interaksi pengguna.
+
+
+![Aplikasi Registrasi Seminar](."C:\Users\ASUS\Pictures\Screenshots\Screenshot 2025-06-04 221214.png")
