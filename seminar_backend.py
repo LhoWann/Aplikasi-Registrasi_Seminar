@@ -1,6 +1,7 @@
 import re
 from datetime import datetime
 from data_handling import load_data_from_csv, save_data_to_csv
+from config import MAX_PARTICIPANTS 
 
 class Seminar_Registration:
     def __init__(self):
@@ -27,6 +28,9 @@ class Seminar_Registration:
         return bool(re.match(pattern, email))
 
     def register_participant(self, nama: str, email: str, institusi: str) -> tuple[bool, str]:
+        if len(self.participants) >= MAX_PARTICIPANTS:
+            return False, f"Pendaftaran Gagal. Kapasitas seminar sudah penuh ({MAX_PARTICIPANTS} peserta)."
+
         is_valid_nama, msg_nama, proc_nama = self._is_valid_string_input(nama, "Nama")
         if not is_valid_nama: return False, msg_nama
 
