@@ -10,47 +10,47 @@ Program ini memiliki beberapa fitur utama:
 
 ### 1. Pendaftaran Peserta Baru
 
-    a. Pengguna dapat memasukkan**nama lengkap, alamat email, dan asal institusi** peserta melalui form input.
+    a. Pengguna dapat memasukkan nama lengkap, alamat email, dan asal institusi peserta melalui form input.
 
-    b. Sistem melakukan**validasi input** , termasuk format email dan keunikan email (tidak boleh ada email yang sama terdaftar.
+    b. Sistem melakukan validasi input , termasuk format email dan keunikan email (tidak boleh ada email yang sama terdaftar.
 
-    c. Data peserta yang berhasil didaftarkan akan disimpan beserta**waktu pendaftaran otomatis** .
+    c. Data peserta yang berhasil didaftarkan akan disimpan beserta waktu pendaftaran otomatis.
 
 ### 2. Menampilkan Daftar Peserta
 
-    a. Seluruh peserta yang terdaftar ditampilkan dalam sebuah**tabel interaktif** .
+    a. Seluruh peserta yang terdaftar ditampilkan dalam sebuah tabel interaktif.
 
     b. Informasi yang ditampilkan meliputi nama, email, institusi, dan waktu pendaftaran.
 
 ### 3. Pencarian Peserta
 
-    a. Pengguna dapat**mencari peserta** berdasarkan kata kunci.
+    a. Pengguna dapat mencari peserta berdasarkan kata kunci.
 
     b. Pencarian dilakukan pada field nama, email, dan institusi.
 
 ### 4. Pengurutan Peserta
 
-    a. Daftar peserta dapat**diurutkan** berdasarkan "Waktu Daftar" atau "Nama Peserta".
+    a. Daftar peserta dapat diurutkan berdasarkan "Waktu Daftar" atau "Nama Peserta".
 
-    b. Pengurutan dapat dilakukan secara**Ascending (menaik)** atau  **Descending (menurun)**.
+    b. Pengurutan dapat dilakukan secara Ascending (menaik) atau Descending (menurun).
 
 ### 5. Penghapusan Peserta
 
-    a. Pengguna dapat**memilih peserta dari tabel** dan menghapusnya.
+    a. Pengguna dapat memilih peserta dari tabel dan menghapusnya.
 
-    b. Ada**konfirmasi** sebelum data peserta benar-benar dihapus.
+    b. Ada konfirmasi sebelum data peserta benar-benar dihapus.
 
     c. Penghapusan dilakukan berdasarkan alamat email peserta.
 
 ### 6. Penyimpanan Data
 
-    a. Semua data peserta**disimpan dalam sebuah file CSV** (`dummy_peserta.csv`).
+    a. Semua data peserta disimpan dalam sebuah file CSV (`dummy_peserta.csv`).
 
-    b. Data akan**dimuat saat aplikasi dimulai** dan **disimpan setiap kali ada perubahan** (pendaftaran atau penghapusan).
+    b. Data akan dimuat saat aplikasi dimulai dan disimpan setiap kali ada perubahan (pendaftaran atau penghapusan).
 
 ### 7. Antarmuka Pengguna Grafis (GUI)
 
-    a. Aplikasi memiliki**antarmuka yang ramah pengguna** yang dibangun menggunakan Tkinter.
+    a. Aplikasi memiliki antarmuka yang ramah pengguna yang dibangun menggunakan Tkinter.
 
     b. Tata letak dan gaya widget diatur untuk kemudahan penggunaan.
 
